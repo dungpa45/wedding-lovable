@@ -7,8 +7,8 @@ import couple1 from "../assets/images/gallery/couple1.jpg";
 import couple2 from "../assets/images/gallery/couple2.jpg";
 import couple3 from "../assets/images/gallery/couple3.jpg";
 import couple4 from "../assets/images/gallery/couple4.jpg";
-import couple5 from "../assets/images/gallery/couple5.jpg";
-import couple6 from "../assets/images/gallery/couple6.jpg";
+// import couple5 from "../assets/images/gallery/couple5.jpg";
+// import couple6 from "../assets/images/gallery/couple6.jpg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
