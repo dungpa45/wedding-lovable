@@ -16,8 +16,8 @@ const Footer = () => {
             <p>October 15, 2024</p>
           </div>
           
-          <div className="flex justify-center space-x-6 mb-6">
-            {['Home', 'Our Story', 'Details', 'RSVP', 'Gallery', 'Registry', 'Travel'].map((item) => (
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 mb-6">
+            {['Home', 'Countdown', 'Our Story', 'Details', 'RSVP', 'Gallery', 'Guestbook', 'Registry', 'Travel'].map((item) => (
               <a 
                 key={item} 
                 href={`#${item.toLowerCase().replace(' ', '-')}`}
