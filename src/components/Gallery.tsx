@@ -1,34 +1,41 @@
-
 import React, { useState } from 'react';
 import { cn } from "@/lib/utils";
 import { X } from 'lucide-react';
+
+// Import images from assets folder
+import couple1 from "../assets/images/gallery/couple1.jpg";
+import couple2 from "../assets/images/gallery/couple2.jpg";
+import couple3 from "../assets/images/gallery/couple3.jpg";
+import couple4 from "../assets/images/gallery/couple4.jpg";
+import couple5 from "../assets/images/gallery/couple5.jpg";
+import couple6 from "../assets/images/gallery/couple6.jpg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1000&auto=format&fit=crop",
+      src: couple1,
       alt: "Couple walking on beach"
     },
     {
-      src: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=1000&auto=format&fit=crop",
+      src: couple2,
       alt: "Couple by the lake"
     },
     {
-      src: "https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?q=80&w=1000&auto=format&fit=crop",
+      src: couple3,
       alt: "Couple in the park"
     },
     {
-      src: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=1000&auto=format&fit=crop",
+      src: couple4,
       alt: "Couple during sunset"
     },
     {
-      src: "https://images.unsplash.com/photo-1529634806980-85c3dd6d35ac?q=80&w=1000&auto=format&fit=crop",
+      src: couple5,
       alt: "Couple walking in the forest"
     },
     {
-      src: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?q=80&w=1000&auto=format&fit=crop",
+      src: couple6,
       alt: "Couple laughing together"
     },
   ];

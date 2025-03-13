@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { cn } from "@/lib/utils";
+import heroBg from "../assets/images/hero-bg.jpg";
 
 const Hero = () => {
   const weddingDate = "December 31, 2025";
@@ -9,7 +10,7 @@ const Hero = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-wedding-blush/30">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" 
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1604017011826-d3b4c23f8914?q=80&w=2940&auto=format&fit=crop')" }}
+        style={{ backgroundImage: `url(${heroBg})` }}
       />
       
       <div className="container-custom relative z-10 text-center py-16 animate-fade-in">
