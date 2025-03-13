@@ -8,7 +8,6 @@ import Details from '@/components/Details';
 import RSVP from '@/components/RSVP';
 import Gallery from '@/components/Gallery';
 import Guestbook from '@/components/Guestbook';
-import Registry from '@/components/Registry';
 import Accommodations from '@/components/Accommodations';
 import Footer from '@/components/Footer';
 
@@ -23,7 +22,6 @@ const Index = () => {
       <RSVP />
       <Gallery />
       <Guestbook />
-      <Registry />
       <Accommodations />
       <Footer />
     </div>

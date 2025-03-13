@@ -3,7 +3,7 @@ import React from 'react';
 import { cn } from "@/lib/utils";
 
 const Hero = () => {
-  const weddingDate = "October 15, 2024";
+  const weddingDate = "December 31, 2025";
   
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-wedding-blush/30">
@@ -18,11 +18,11 @@ const Hero = () => {
         </p>
         
         <h1 className="font-serif text-5xl md:text-7xl mb-6">
-          <span className="block mb-2">Jane</span>
+          <span className="block mb-2">Tom</span>
           <span className="inline-block w-8 h-8 mx-3 rounded-full bg-wedding-gold/30 relative">
             <span className="absolute inset-0 flex items-center justify-center">&</span>
           </span>
-          <span className="block mt-2">Alex</span>
+          <span className="block mt-2">Jerry</span>
         </h1>
         
         <div className={cn(
